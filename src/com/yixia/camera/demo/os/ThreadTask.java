@@ -18,6 +18,7 @@ public abstract class ThreadTask<Params, Progress, Result> {
 	private static final int MESSAGE_INBACKGROUND = 0;
 	private static final int MESSAGE_POSTEXECUTE = 1;
 	private static final int MESSAGE_PROGRESS = 2;
+	private String  = "tio";
 
 	public ThreadTask() {
 		//降低线程的优先级
