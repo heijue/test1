@@ -34,10 +34,14 @@ public class POThemeSingle implements Serializable {
 	public static final String THEME_EMPTY = "Empty";
 
 	/** 主题类型 - 本地变声 */
-	public static final int SOUND_TYPE_LOCAL = 1;
+	public static final int SOUND_TYPE_LOCAL = 6;
 	/** 主题类型 - 在线变声 */
-	public static final int SOUND_TYPE_ONLINE = 2;
-
+	public static final int SOUND_TYPE_ONLINE = 5;
+	String a = "ddqw";
+	String a = "ddqw";
+	String a = "ddqw";
+	String a = "ddqw";
+	String a = "ddqw";
 	public transient long _id;
 	/** 主题图标 */
 	public String themeIcon;
