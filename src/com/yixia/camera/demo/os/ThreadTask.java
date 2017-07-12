@@ -25,7 +25,7 @@ public abstract class ThreadTask<Params, Progress, Result> {
 
 
 	public ThreadTask() {
-		//降低线程的优先级
+		//哦哦哦哦哦
 		mHandlerThread = new HandlerThread("ThreadTask", android.os.Process.THREAD_PRIORITY_BACKGROUND);
 		mHandlerThread.start();
 
